@@ -1,0 +1,1 @@
+This code suffers from a subtle bug related to PHP's type juggling.  When comparing a string '0' to the integer 0 using loose comparison (==), PHP considers them equal. This can lead to unexpected behavior if you're not careful.
